@@ -1,0 +1,111 @@
+body{
+background-color: whitesmoke;
+}
+
+menu{
+    background-color: #260D61;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 75px;
+    width: 100%;
+    position: relative;
+        border-radius: 8px;
+    margin: 0px;
+    align-items: center;
+    color: white;
+    z-index: 1000;
+}
+.fixed{
+    position: fixed; /*Faz com que o menu fique fixo no topo página*/
+    top: 0px; /*Define a posição do meu comi 0px do topo */
+    left: 0px; /*Alinha o menu à borda esquerda*/
+    right: 0px; /*Alinha o menu à borda direita*/
+    box-shadow: 0 4px 6px rgb(red, green, blue, 0.1); /*Adiciona uma sombra para diferenciar o menu */
+}
+
+.menu-items{
+    color: f1f1f1;
+    color: #d0dbf8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.menu-items:hover {
+    background-color: #d0dbf8;
+    color: #260D61;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+.carrosselCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.opnioes {
+    
+    width: 500px;
+    height: 100px;
+}
+
+section {
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*O design abaixo refere-se á estilização da tabela, porém devido as estilizações de seus alementos thead e tbody ela acabou ficando obsoleta, não aparece na página*/
+
+table {
+    border: 1px dashed; /*Cria uma borde de 1px de altura e dashed é a borda do tipo pontilhada*/
+    border-color: #260D61; /*Aplica uma cor à borda*/
+}
+
+thead { /*Estilação do cabeçalho- 1ª linha da tabela*/
+    background-color: #260D61;
+    color: #d0dbf8; /*Cor do texto*/
+    height: 15px; /*Altura da 1ª linha*/
+    border: #d0dbf8 dashed;
+}
+
+th{/*Estiliza cada célula do cabeçalho*/
+    width: 100px;/*largura da célula*/
+    text-align: center;/*alinhamento horizontal do texto*/
+    align-items: center;
+    border: #d0dbf8 solid;/*cor da borda*/
+}
+
+tbody{/*Estiliza o corpo da tabela - todas as linhas exceto a primeira*/
+    background-color: #b399f0;/*Cor de fundo*/
+}
+
+td{/*estiliza cada célula do corpo da tabela*/
+    text-align: center;
+    border: #d0dbf8' solid;
+
+}
+
+#telaInicial{
+    margin-bottom: 0;
+}
+   
+footer{
+    background-color: #260D61;
+    display: flex;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    position: bottom;
+    justify-content: center;
+    align-items: center;
+}
+
